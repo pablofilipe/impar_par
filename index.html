@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ímpar e par</title>
+        <link rel="icon" href="img/impar_par.png">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Start Bootstrap. -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- End Bootstrap.-->
+
+        <!-- Start FontAwesome. -->
+        <script src="https://kit.fontawesome.com/b3c54b6db6.js" crossorigin="anonymous"></script>
+        <!-- End FontAwesome. -->
+
+        <!-- Animate switch alert. -->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!-- Animate switch alert. -->
+
+        <!-- Para não guardar cache. -->
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <!-- Para não guardar cache. -->
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <img src="img/impar_par.png" alt="Ímpar e par">
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md">
+                    <div id="resultado" class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <label>Ímpares: </label><span id="impares"></span>
+                            </div>
+                            <div class="row">
+                                <label>Pares: </label><span id="pares"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md input-group">
+                            <input
+                                type="text"
+                                id="numero"
+                                class="form-control form-control-sm"
+                                autocomplete="off"
+                                placeholder="Número"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md">
+                    <button
+                        type="button"
+                        class="btn btn-sm btn-outline-light"
+                        onclick="gerarResultado()"
+                    >
+                        Exibir números
+                        <i class="fa-solid fa-yin-yang ms-1"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row mt-4 text-center">
+                <div class="col-md-12">
+                    <p>2022 &copy; Todos os direitos reservados.</p>
+                    <p id="social-medias">
+                        Pablo Filipe |
+                        <a href="https://www.linkedin.com/in/pablofilipe/"
+                           target="_blank"
+                           title="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/pablofilipe"
+                           target="_blank"
+                           title="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start script Bootstrap. -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <!-- End script Bootstrap. -->
+
+        <!-- Start switch alert. -->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- End switch alert. -->
+
+        <!-- Start file JS. -->
+        <script src="js/script.js"></script>
+        <!-- End file JS. -->
+
+    </body>
+
+</html>

@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #161616 !important;
+    color: white !important;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, #social-medias a {
+    color: #FFF;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+
+#social-medias a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+img {
+    width: 180px;
+}
+
+#resultado {
+    display: none;
+}
